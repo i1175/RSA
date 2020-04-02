@@ -187,7 +187,7 @@ public class RSA {
          System.out.println("Modulus n is: "+n_e_d[0]);
          System.out.println("Public key e is: "+n_e_d[1]);
          System.out.println("Private key d is: "+ n_e_d[2]);
-         long[] ciphertext=cipher.encrypt("Secret", n_e_d[1],n_e_d[0]);
+         long[] ciphertext=cipher.encrypt("HebahNoor", n_e_d[1],n_e_d[0]);
          
 
          //------------
